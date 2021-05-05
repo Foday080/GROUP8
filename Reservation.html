@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reservation.css">
+
+    <title>Document</title>
+</head>
+<body background="img/large.jpg">
+    <div class="topnav" id="myTopnav">
+
+        <div>
+            <a href="index.html" >Home</a>
+        <a href="About Us.html">About</a>
+        <a href="services.html">Service</a>
+        <a href="Team member.html">Team</a>
+        <a href="contact.html">Contact</a>
+        <a href="Reservation.html" class="active">Reservation</a>
+        <a href="Our-menu.html">Our menu</a>
+         
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="img/logoo.png" alt="logo"></a>
+        </div>
+      </div>
+ 
+
+   <!-----banner section------->
+    
+   <section class="banner">
+      
+    <h2>Book your table now</h2>
+
+    <div class="card-container">
+        <div class="card-img">
+          <!-----image here---->
+        </div>
+
+        <div class="card-content">
+            <h3>Reservation</h3>
+            <form>
+                <div class="form-row">
+                    <select name="days">
+                        <option value="day-select">select day</option>
+                        <option value="sunday">sunday</option>
+                        <option value="sunday">monday</option>
+                        <option value="sunday">tuesday</option>
+                        <option value="sunday">wednesday</option>
+                        <option value="sunday">thursday</option>
+                        <option value="sunday">friday</option>
+                        <option value="sunday">saturday</option>
+                    </select>
+
+                    <select name="hours">
+                        <option value="hour-select">select hour</option>
+                        <option value="10">10:00</option>
+                        <option value="10">12:00</option>
+                        <option value="10">14:00</option>
+                        <option value="10">18:00</option>
+                        <option value="10">20:00</option>
+                        <option value="10">22:00</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="full name">
+                    <input type="text" placeholder="phone number">
+                </div>
+                <div class="form-row">
+                    <input type="number" placeholder="how many persons?" min="1">
+                    <input type="submit" value="book table">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+        <!-----footer------->
+<section id="footer">
+    <div class="container text-center">
+        <p>hamper restaurant <i class="fa fa-heart-o"></i></p>
+        <ul class="socials">
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+        <div class="footer-button">
+            <P>copyright &copy;2021 hamper, designed by <span>Foday samuel Kanu</span></P>
+        </div>
+    </div>
+</section>
+
+      <script src="js script/js script.js"></script>
+</body>
+</html>

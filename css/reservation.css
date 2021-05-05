@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+  position: relative ;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+   padding: 30px;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid; grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("../img/reserv5.jpg") center/ cover no-repeat;
+    height: 330px;
+    
+}
+
+.card-content{
+    padding: 60px;
+    background: #fff;
+    height: 330px;
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-content h3{
+    text-align: center;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+}
+form input[type=text], form input[type=number], form input::placeholder,select{
+    color: #9a9a9a;
+}
+form input[type=submit] {
+color: #fff;
+background: #f2745f;
+padding: 12px 0;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+
+#footer
+{
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+   text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.fa-herat-o
+{
+    margin: 4px;
+    color: red;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    color: blue;
+}
+.socials a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.socials a i{
+    font-size: 15px;
+    transition: color .4s ease;
+    color: red;
+}
+.socials a:hover i{
+    color: blue;
+}
+.footer-button{
+    
+    width: 100vw;
+
+    text-align: center;
+}
+
+.footer-button p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-button span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer p{
+    text-align: center;
+}
